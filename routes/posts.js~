@@ -2,6 +2,7 @@ var express = require('express');
 var postRouter = express.Router();
 var Post = require('../models/Post.js');
 var mongoose = require('mongoose');
+var fs = require('fs');
 var path = require('path');
 var imageHandler = require('../utils/ImageHandling');
 
